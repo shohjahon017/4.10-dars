@@ -6,6 +6,7 @@
 //   job: "Developer",
 // };
 // console.log(person);
+
 //2-masala
 // const person = {
 //   name: "Asadbek",
@@ -14,6 +15,7 @@
 // };
 // person.name = "Vali";
 // console.log(person);
+
 //3-masala
 // const person = {
 //   name: "Asadbek",
@@ -22,6 +24,7 @@
 // };
 // person.place = "Farg`ona";
 // console.log(person);
+
 //4-masala
 // const person = {
 //   name: "Asadbek",
@@ -31,6 +34,7 @@
 // delete person.job;
 // person.place = "Farg`ona";
 // console.log(person);
+
 //5-masala
 // const person = {
 //   name: "Asadbek",
@@ -39,6 +43,7 @@
 // };
 // person.phone = ["+998991546441", 24];
 // console.log(person);
+
 // //6-masala
 // const person = {
 //   name: "Asadbek",
@@ -46,6 +51,7 @@
 //   job: "Developer",
 // };
 // for (let name in person) console.log(name + ":" + person[name]);
+
 //7-masala
 // const person = {
 //   name: "Asadbek",
@@ -53,6 +59,7 @@
 //   job: "Developer",
 // };
 // console.log(person.age);
+
 //8-masala
 // function makeObyekt(name, age, job) {
 //   return {
@@ -63,7 +70,9 @@
 // }
 // const person = makeObyekt("Asadbek", 17, "Developer");
 // console.log(person);
+
 //Umumlashtiruvchi masalalar.
+
 //1-masala
 // const arr = "52433143";
 // function findElement(arr) {
@@ -76,6 +85,7 @@
 //   return sum;
 // }
 // console.log(findElement(arr));
+
 //2-masala
 // let arr = 1;
 // function createElement(arr, n) {
@@ -88,6 +98,7 @@
 //   return a;
 // }
 // console.log(createElement(arr, 10));
+
 //3-masala
 // const str = "hel*l*o";
 // function removeItem(str) {
@@ -95,6 +106,7 @@
 //   return res;
 // }
 // console.log(removeItem(str));
+
 //4-masala
 // const str = "salom dunyo";
 // function removeSecondElement(str) {
@@ -104,6 +116,7 @@
 //   return str;
 // }
 // console.log(removeSecondElement(str));
+
 //5-masala
 // const arr = [1, 5, 7, 9, a, B];
 // function largeElement(arr) {
@@ -130,7 +143,14 @@
 // }
 // console.log(stringElement(arr));
 
-//8-masala
+//10-masala
+// const str1 = ["salom", "hello"];
+// const str2 = ["xayr", "bye"];
+// function oneString(str1, str2) {
+//   let res = str1.concat(str2).join(" ");
+//   return res;
+// }
+// console.log(oneString(str1, str2));
 
 //12-masala
 // const arr = ["h", "e", "l", "l", "o"];
@@ -166,6 +186,13 @@
 // }
 // console.log(newMassiv(str));
 
+//17-masala
+const str = " salom  dunyo ";
+function stringElement(str) {
+  let res = str.trim("...");
+  return res;
+}
+console.log(stringElement(str));
 //18-masala
 // function toCapitalize(str) {
 //   let res = str.split(" ");
@@ -175,3 +202,21 @@
 //   return res.join(" ");
 // }
 // console.log(toCapitalize("hello world"));
+
+//19-masala
+// function toCapitalize(str) {
+//   let res = str.split(" ");
+//   res = res.map(function (value) {
+//     return value[0];
+//   });
+//   return res.join(" ");
+// }
+// console.log(toCapitalize("hello world"));
+
+//20-masala
+// const str = "hello world";
+// function newString(str) {
+//   let res = str.split("");
+//   return res.reverse();
+// }
+// console.log(newString(str));
